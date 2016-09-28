@@ -4,20 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
-
 namespace App.Entities
 {
-    
-   
-    public class Docente
+    public class Avisos
     {
+        [Key]
         
-          [Key]
         public int Id { get; set; }
-        public string Nombre { get; set; }
-        public string ApellidoPaterno { get; set; }
-        public string ApellidoMaterno { get; set; }
-        public byte[] Foto { get; set; }
-    
+        public string Titulo { get; set; }
+        public string Descripcion { get; set; }
+        public DateTime FechaHora { get; set; }
     }
 }
