@@ -11,7 +11,7 @@ namespace App.Entities
     {
         [Key]
         public int Id { get; set; }
-        public int Id_Alumno { get; set; }
-        public int Id_Aviso { get; set; }
+        public int IdAlumno { get; set; }
+        public int IdAviso { get; set; }
     }
 }
