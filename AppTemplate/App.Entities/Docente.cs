@@ -11,8 +11,7 @@ namespace App.Entities
    
     public class Docente
     {
-        
-          [Key]
+        [Key]
         public int Id { get; set; }
         public string Nombre { get; set; }
         public string ApellidoPaterno { get; set; }
